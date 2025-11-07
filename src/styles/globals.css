@@ -1,0 +1,402 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --card: #ffffff;
+  --card-foreground: #1a1a1a;
+  --popover: #ffffff;
+  --popover-foreground: #1a1a1a;
+  --primary: #1e40af;
+  --primary-foreground: #ffffff;
+  --secondary: #f8fafc;
+  --secondary-foreground: #1a1a1a;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --accent: #f59e0b;
+  --accent-foreground: #ffffff;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: #e2e8f0;
+  --input: transparent;
+  --ring: #1e40af;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: #0c1222;
+  --foreground: #f1f5f9;
+  --card: #1e293b;
+  --card-foreground: #f1f5f9;
+  --popover: #1e293b;
+  --popover-foreground: #f1f5f9;
+  --primary: #3b82f6;
+  --primary-foreground: #f1f5f9;
+  --secondary: #334155;
+  --secondary-foreground: #f1f5f9;
+  --muted: #334155;
+  --muted-foreground: #94a3b8;
+  --accent: #f59e0b;
+  --accent-foreground: #0c1222;
+  --destructive: #ef4444;
+  --destructive-foreground: #f1f5f9;
+  --border: #334155;
+  --input: #334155;
+  --ring: #3b82f6;
+}
+
+.ocean {
+  --background: #0c1629;
+  --foreground: #f1f5f9;
+  --card: #1e293b;
+  --card-foreground: #f1f5f9;
+  --primary: #0ea5e9;
+  --primary-foreground: #ffffff;
+  --secondary: #334155;
+  --muted: #334155;
+  --muted-foreground: #94a3b8;
+  --accent: #06b6d4;
+  --border: #334155;
+  --ring: #0ea5e9;
+}
+
+.purple {
+  --background: #1a0b2e;
+  --foreground: #f3f4f6;
+  --card: #2d1b4e;
+  --card-foreground: #f3f4f6;
+  --primary: #8b5cf6;
+  --secondary: #4a2c5e;
+  --muted: #4a2c5e;
+  --muted-foreground: #c4b5fd;
+  --accent: #7c3aed;
+  --border: #4a2c5e;
+  --ring: #8b5cf6;
+}
+
+.forest {
+  --background: #0b1b0f;
+  --foreground: #f0fdf4;
+  --card: #14532d;
+  --card-foreground: #f0fdf4;
+  --primary: #10b981;
+  --secondary: #166534;
+  --muted: #166534;
+  --muted-foreground: #86efac;
+  --accent: #059669;
+  --border: #166534;
+  --ring: #10b981;
+}
+
+.halloween {
+  --background: #0d0a00;
+  --foreground: #ff6b35;
+  --card: #1a0f00;
+  --card-foreground: #ff6b35;
+  --primary: #ff6b35;
+  --primary-foreground: #0d0a00;
+  --secondary: #2d1400;
+  --muted: #2d1400;
+  --muted-foreground: #ffcc80;
+  --accent: #ff9800;
+  --border: #ff6b35;
+  --ring: #ff6b35;
+}
+
+.christmas {
+  --background: #0a2f0a;
+  --foreground: #ffffff;
+  --card: #134e13;
+  --card-foreground: #ffffff;
+  --primary: #dc2626;
+  --secondary: #15803d;
+  --muted: #15803d;
+  --muted-foreground: #dcfce7;
+  --accent: #eab308;
+  --border: #dc2626;
+  --ring: #dc2626;
+}
+
+.diwali {
+  --background: #4a0e4e;
+  --foreground: #ffd700;
+  --card: #6b1369;
+  --card-foreground: #ffd700;
+  --primary: #ffd700;
+  --primary-foreground: #4a0e4e;
+  --secondary: #8b2c8b;
+  --muted: #8b2c8b;
+  --muted-foreground: #ffe066;
+  --accent: #ff6b35;
+  --border: #ffd700;
+  --ring: #ffd700;
+}
+
+.winter {
+  --background: #f0f9ff;
+  --foreground: #0c4a6e;
+  --card: #ffffff;
+  --card-foreground: #0c4a6e;
+  --primary: #0284c7;
+  --secondary: #e0f2fe;
+  --muted: #e0f2fe;
+  --muted-foreground: #0369a1;
+  --accent: #7dd3fc;
+  --border: #bae6fd;
+  --ring: #0284c7;
+}
+
+.spring {
+  --background: #fdf2f8;
+  --foreground: #831843;
+  --card: #ffffff;
+  --card-foreground: #831843;
+  --primary: #ec4899;
+  --secondary: #fce7f3;
+  --muted: #fce7f3;
+  --muted-foreground: #be185d;
+  --accent: #fbbf24;
+  --border: #f9a8d4;
+  --ring: #ec4899;
+}
+
+.desert {
+  --background: #451a03;
+  --foreground: #fbbf24;
+  --card: #7c2d12;
+  --card-foreground: #fbbf24;
+  --primary: #f59e0b;
+  --primary-foreground: #451a03;
+  --secondary: #a16207;
+  --muted: #a16207;
+  --muted-foreground: #fde68a;
+  --accent: #dc2626;
+  --border: #a16207;
+  --ring: #f59e0b;
+}
+
+.cosmic {
+  --background: #0a0118;
+  --foreground: #a855f7;
+  --card: #1e1138;
+  --card-foreground: #a855f7;
+  --primary: #7c3aed;
+  --secondary: #2d1b69;
+  --muted: #2d1b69;
+  --muted-foreground: #ddd6fe;
+  --accent: #06b6d4;
+  --border: #2d1b69;
+  --ring: #7c3aed;
+}
+
+.arctic {
+  --background: #f8fafc;
+  --foreground: #1e293b;
+  --card: #ffffff;
+  --card-foreground: #1e293b;
+  --primary: #06b6d4;
+  --secondary: #f1f5f9;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --accent: #0ea5e9;
+  --border: #cbd5e1;
+  --ring: #06b6d4;
+}
+
+.volcanic {
+  --background: #1c0f00;
+  --foreground: #ff6b35;
+  --card: #3a1e00;
+  --card-foreground: #ff6b35;
+  --primary: #dc2626;
+  --secondary: #581c00;
+  --muted: #581c00;
+  --muted-foreground: #ffa726;
+  --accent: #f59e0b;
+  --border: #581c00;
+  --ring: #dc2626;
+}
+
+.butterfly {
+  --background: #fef3c7;
+  --foreground: #7c2d12;
+  --card: #ffffff;
+  --card-foreground: #7c2d12;
+  --primary: #f59e0b;
+  --secondary: #fef3c7;
+  --muted: #fed7aa;
+  --muted-foreground: #c2410c;
+  --accent: #ec4899;
+  --border: #fed7aa;
+  --ring: #f59e0b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover, var(--card));
+  --color-popover-foreground: var(--popover-foreground, var(--card-foreground));
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground, #ffffff);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground, var(--foreground));
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground, var(--foreground));
+  --color-destructive: var(--destructive, #ef4444);
+  --color-destructive-foreground: var(--destructive-foreground, #ffffff);
+  --color-border: var(--border);
+  --color-input: var(--input, var(--border));
+  --color-ring: var(--ring);
+  --radius-lg: var(--radius);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  
+  html {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Z-Index System for Honourus */
+  /* 
+    Background decorations: z-0 to z-10 
+    Main content: z-auto (default)
+    Sticky elements: z-20 to z-30
+    Overlays/Dropdowns: z-40 to z-49
+    Modals/Dialogs: z-50 to z-60
+    Toasts/Notifications: z-70+
+  */
+}
+
+/* Smooth transitions for interactive elements */
+@layer utilities {
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Prevent body scroll when sidebar is open on mobile */
+  .overflow-hidden-mobile {
+    overflow: hidden;
+  }
+  
+  @media (min-width: 1024px) {
+    .overflow-hidden-mobile {
+      overflow: auto;
+    }
+  }
+  
+  /* Shimmer animation for loading bar */
+  @keyframes shimmer {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+  
+  /* Custom scrollbar styles for better UX */
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(148, 163, 184, 0.3) transparent;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 4px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.3);
+    border-radius: 4px;
+    transition: background 0.2s ease;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.5);
+  }
+  
+  /* Dark mode scrollbar */
+  .dark .custom-scrollbar {
+    scrollbar-color: rgba(148, 163, 184, 0.5) transparent;
+  }
+  
+  .dark .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.5);
+  }
+  
+  .dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.7);
+  }
+
+  /* Theme Decorations - ensure they never block interactions */
+  .theme-decorations-container,
+  .theme-decorations-container * {
+    pointer-events: none !important;
+    user-select: none;
+  }
+
+  /* Ensure main content is always above decorations */
+  main,
+  header,
+  aside,
+  [role="dialog"],
+  [role="menu"],
+  [role="listbox"] {
+    position: relative;
+    z-index: auto;
+  }
+
+  /* Background decorations should be behind content */
+  .decoration-layer-bg {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Foreground decorations (like floating elements) */
+  .decoration-layer-fg {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* Gradient overlay for radial effects */
+  @supports (background: radial-gradient(circle, transparent, transparent)) {
+    .bg-gradient-radial {
+      background: radial-gradient(circle at center, var(--tw-gradient-stops));
+    }
+  }
+  
+  /* Ensure all workspace views have proper padding when they don't have their own wrapper */
+  main > div > div > div[class*="space-y-6"]:not([class*="p-4"]):not([class*="p-6"]) {
+    padding: 1rem 1.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    main > div > div > div[class*="space-y-6"]:not([class*="p-4"]):not([class*="p-6"]) {
+      padding: 1.5rem;
+    }
+  }
+}
