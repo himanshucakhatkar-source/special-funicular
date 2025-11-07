@@ -9,6 +9,7 @@ import { Toaster } from './components/ui/sonner';
 import { ErrorBoundary } from './components/ui/error-boundary';
 import { ProtectedRoute } from './components/auth/ProtectedRoute';
 import { ThemeDecorations } from './components/ui/theme-decorations';
+import MarketingPage from "./components/marketing/MarketingPage";
 
 function AppContent() {
   const { mode } = useHonourus();
